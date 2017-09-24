@@ -18,7 +18,8 @@ public class Regtest {
 				break;
 			}else {
 				System.out.println("手机号输入不正确!");
-			}			
+			}		
+			
 		}
 	}
 }
