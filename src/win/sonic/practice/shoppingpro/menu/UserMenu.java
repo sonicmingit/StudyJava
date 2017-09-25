@@ -3,8 +3,8 @@
 import java.sql.*;
 import java.util.Random;
 
-import com.shop.dao.JDBC;
-import com.shop.vo.User;
+import win.sonic.practice.shoppingpro.dao.JDBC;
+import win.sonic.practice.shoppingpro.vo.User;
 
 /**
  * 用户库操作菜单

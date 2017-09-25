@@ -1,7 +1,7 @@
 ﻿package win.sonic.practice.shoppingpro.view;
 
-import com.shop.dao.JDBC;
-import com.shop.menu.*;
+import win.sonic.practice.shoppingpro.dao.JDBC;
+import win.sonic.practice.shoppingpro.menu.*;
 
 public class Test {
 	public static void main(String[] args) {

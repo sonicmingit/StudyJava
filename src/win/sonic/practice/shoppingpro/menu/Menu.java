@@ -3,9 +3,9 @@
 import java.sql.*;
 import java.util.Scanner;
 
-import com.shop.dao.*;
-import com.shop.vo.*;
-import com.shop.vo.User;
+import win.sonic.practice.shoppingpro.dao.*;
+import win.sonic.practice.shoppingpro.vo.*;
+import win.sonic.practice.shoppingpro.vo.User;
 /**
  * 综合菜单和菜单公用方法
  * 

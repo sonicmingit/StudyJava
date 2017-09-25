@@ -1,9 +1,9 @@
 ﻿package win.sonic.practice.shoppingpro.dao;
 
 import java.sql.*;
-import com.shop.vo.User;
-import com.shop.dao.JDBC;
-import com.shop.menu.Menu;
+import win.sonic.practice.shoppingpro.vo.User;
+import win.sonic.practice.shoppingpro.dao.JDBC;
+import win.sonic.practice.shoppingpro.menu.Menu;
 
 /**
  * 用户表连接数据库的操作方法

@@ -2,7 +2,8 @@
 
 import java.sql.SQLException;
 
-import com.shop.vo.Goods;
+import win.sonic.practice.shoppingpro.vo.Goods;
+import win.sonic.practice.shoppingpro.dao.GoodsDao;
 
 /**
  * 商品库操作菜单
@@ -11,6 +12,7 @@ import com.shop.vo.Goods;
  */
 public class GoodsMenu extends Menu {
 	/*库存商品管理员菜单*/
+	GoodsDao gd = new GoodsDao();
 	/**
 	 * 管理员管理商品
 	 */

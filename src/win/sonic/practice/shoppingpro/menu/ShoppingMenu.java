@@ -2,8 +2,8 @@
 
 import java.sql.ResultSet;
 
-import com.shop.dao.*;
-import com.shop.vo.*;
+import win.sonic.practice.shoppingpro.dao.*;
+import win.sonic.practice.shoppingpro.vo.*;
 
 /**
  * 购物操作菜单

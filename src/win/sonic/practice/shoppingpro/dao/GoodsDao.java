@@ -2,9 +2,9 @@
 
 import java.sql.*;
 
-import com.shop.vo.Goods;
-import com.shop.dao.JDBC;
-import com.shop.menu.Menu;
+import win.sonic.practice.shoppingpro.vo.Goods;
+import win.sonic.practice.shoppingpro.dao.JDBC;
+import win.sonic.practice.shoppingpro.menu.Menu;
 
 /**
  * 商品表连接数据库的操作方法
