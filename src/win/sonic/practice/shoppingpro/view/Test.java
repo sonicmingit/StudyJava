@@ -5,7 +5,7 @@ import win.sonic.practice.shoppingpro.menu.*;
 
 public class Test {
 	public static void main(String[] args) {
-		JDBC.LinkMariaDB();
+		JDBC.LinkMySql();
 		//创建商品菜单
 		GoodsMenu gm = new GoodsMenu();
 		//创建用户菜单

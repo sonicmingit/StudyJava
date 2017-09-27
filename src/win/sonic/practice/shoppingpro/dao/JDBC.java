@@ -12,7 +12,7 @@ import java.util.*;
 public class JDBC {
 	private static Connection con = null;
 	private static Properties p = new Properties();
-	private static String s = "src\\com\\shop\\dao\\sql";
+	private static String s = "src\\win\\sonic\\practice\\shoppingpro\\dao\\sql.properties";
 	private static PreparedStatement ps = null;
 	protected String sql = null;
 	protected Statement st = null;
