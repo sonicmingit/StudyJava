@@ -1,4 +1,4 @@
-﻿package win.sonic.a.datatype;
+package win.sonic.a.datatype;
 
 
 public class test {

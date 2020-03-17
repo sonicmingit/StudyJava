@@ -1,35 +1,35 @@
-ï»¿package win.sonic.n.thread;
+package win.sonic.n.thread;
 
 import java.util.ArrayList;
 
 public class BBQ {
-	// å·²è€ƒå¥½èœå“
+	// ÒÑ¿¼ºÃ²ËÆ·
 	private ArrayList<String> menu = new ArrayList<String>();
-	// æœ¬åº—å…±åšèœæ•°
+	// ±¾µê¹²×ö²ËÊı
 	public static int count;
 
-	// ä¸Šèœ
+	// ÉÏ²Ë
 	public String serving() {
-		// çƒ¤å®Œåº“å­˜å°±ä¸è€ƒäº†
+		// ¿¾Íê¿â´æ¾Í²»¿¼ÁË
 		if (count > 11) {
-			System.out.println("æœ¬åº—ä»Šå¤©çƒ§çƒ¤å·²å–å®Œ~è¯·æ˜å¤©å†æ¥!");
+			System.out.println("±¾µê½ñÌìÉÕ¿¾ÒÑÂôÍê~ÇëÃ÷ÌìÔÙÀ´!");
 			return "";
-			// è¿˜æ²¡è€ƒå¥½,è¯·ç­‰å¾…
+			// »¹Ã»¿¼ºÃ,ÇëµÈ´ı
 		} else if (menu.isEmpty()) {
-			System.out.println("èœè¿˜æ²¡çƒ¤å¥½,è¯·ç¨ç­‰");
+			System.out.println("²Ë»¹Ã»¿¾ºÃ,ÇëÉÔµÈ");
 			return "";
 		} else {
 			return menu.remove(0);
 		}
 	}
 
-	// æ·»åŠ çƒ¤å¥½çš„èœ
+	// Ìí¼Ó¿¾ºÃµÄ²Ë
 	public void add(String name) {
 		menu.add(name);
 
 	}
 
-	// è·å–å·²è€ƒå¥½èœå“æ•°
+	// »ñÈ¡ÒÑ¿¼ºÃ²ËÆ·Êı
 	public int getCount() {
 		return menu.size();
 	}

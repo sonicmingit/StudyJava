@@ -1,38 +1,38 @@
-ï»¿package win.sonic.k.API.mora;
+package win.sonic.k.API.mora;
 
 /**
- * æ¸¸æˆç±»
+ * ÓÎÏ·Àà
  * @author Administrator
  *
  */
 public class Game {
-	//å£°æ˜ç”µè„‘
+	//ÉùÃ÷µçÄÔ
 	Computer com;
-	//å£°æ˜ç©å®¶
+	//ÉùÃ÷Íæ¼Ò
 	Person p;
 
-	//æ¸¸æˆçš„æ„é€ æ–¹æ³•
+	//ÓÎÏ·µÄ¹¹Ôì·½·¨
 	public Game(Computer com, Person p) {
 		super();
 		this.com = com;
 		this.p = p;
 	}
 
-	//ç©çš„æ–¹æ³•
+	//ÍæµÄ·½·¨
 	public void play() {
-		// ç©å®¶å‡ºæ‹³
+		// Íæ¼Ò³öÈ­
 		int j = p.getI();
-		// æœºå™¨å‡ºæ‹³
+		// »úÆ÷³öÈ­
 		int i = com.check();
-		// å‡ºæ‹³è¿›è¡Œæ¯”è¾ƒ 
+		// ³öÈ­½øĞĞ±È½Ï 
 		if (j - i == 1 || i - j == 2) {
-			System.out.println("ç©å®¶èµ¢èµ¢èµ¢èµ¢èµ¢èµ¢");
+			System.out.println("Íæ¼ÒÓ®Ó®Ó®Ó®Ó®Ó®");
 		}
 		else if (i - j == 1 || j - i == 2) {
-			System.out.println("ç”µè„‘èµ¢èµ¢èµ¢èµ¢èµ¢èµ¢");
+			System.out.println("µçÄÔÓ®Ó®Ó®Ó®Ó®Ó®");
 
 		} else {
-			System.out.println("å¹³å±€");
+			System.out.println("Æ½¾Ö");
 		}
 	}
 }
