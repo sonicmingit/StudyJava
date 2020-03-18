@@ -1,4 +1,4 @@
-﻿package win.sonic.c.array;
+package win.sonic.c.array;
 import java.lang.reflect.Array;
 import java.nio.channels.ShutdownChannelGroupException;
 import java.util.Arrays;

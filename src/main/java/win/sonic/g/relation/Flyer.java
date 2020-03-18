@@ -1,4 +1,4 @@
-﻿package win.sonic.g.relation;
+package win.sonic.g.relation;
 
 /**
  * <strong>作业 :</strong>

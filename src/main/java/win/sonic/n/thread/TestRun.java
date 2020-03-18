@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread;
+package win.sonic.n.thread;
 
 import java.util.concurrent.TimeUnit;
 

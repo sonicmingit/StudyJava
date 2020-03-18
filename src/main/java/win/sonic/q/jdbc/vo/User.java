@@ -1,4 +1,4 @@
-﻿package win.sonic.q.jdbc.vo;
+package win.sonic.q.jdbc.vo;
 
 import java.util.Date;
 

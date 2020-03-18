@@ -1,4 +1,4 @@
-﻿package win.sonic.r.generic.test;
+package win.sonic.r.generic.test;
 
 /**
  * 利用传入Object类装盒子

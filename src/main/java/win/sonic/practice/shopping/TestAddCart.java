@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shopping;
+package win.sonic.practice.shopping;
 
 /**
  * 测试三种加入购物车的方法

@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shopping;
+package win.sonic.practice.shopping;
 
 /**
  * 泛型接口,有一个判断商品等级的方法

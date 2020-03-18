@@ -1,4 +1,4 @@
-﻿package win.sonic.g.relation;
+package win.sonic.g.relation;
 
 public abstract class Abs {
 	// 抽象方法可以创建成员变量

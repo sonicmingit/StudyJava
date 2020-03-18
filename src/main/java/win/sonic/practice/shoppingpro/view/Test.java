@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shoppingpro.view;
+package win.sonic.practice.shoppingpro.view;
 
 import win.sonic.practice.shoppingpro.dao.JDBC;
 import win.sonic.practice.shoppingpro.menu.*;

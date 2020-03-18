@@ -1,4 +1,4 @@
-﻿package win.sonic.g.relation;
+package win.sonic.g.relation;
 
 public class AbsTest1 extends Abs {
 	// 必须重写父类抽象类未实现的抽象方法

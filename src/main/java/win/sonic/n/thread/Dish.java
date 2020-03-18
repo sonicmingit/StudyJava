@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread;
+package win.sonic.n.thread;
 
 public class Dish {
 	private String name;

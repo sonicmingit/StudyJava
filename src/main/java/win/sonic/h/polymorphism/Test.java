@@ -1,4 +1,4 @@
-﻿package win.sonic.h.polymorphism;
+package win.sonic.h.polymorphism;
 
 public class Test {
 	// 传入Father类的对象参数,只要是Father的子类都可以当形参传入

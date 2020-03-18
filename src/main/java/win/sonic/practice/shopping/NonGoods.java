@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shopping;
+package win.sonic.practice.shopping;
 
 /**
  * 非正常商品抽象父类

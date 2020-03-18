@@ -1,4 +1,4 @@
-﻿package win.sonic.b.processcontrol;
+package win.sonic.b.processcontrol;
 import java.util.Scanner;
 
 public class Pchoice99 {

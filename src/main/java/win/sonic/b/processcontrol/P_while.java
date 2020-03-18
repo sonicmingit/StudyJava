@@ -1,4 +1,4 @@
-﻿package win.sonic.b.processcontrol;
+package win.sonic.b.processcontrol;
 /*
  * while练习题:接受键盘的输入,如果输入的exit就退出，否则提示用户继续输入!
 	知识点:

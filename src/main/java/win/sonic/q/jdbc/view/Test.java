@@ -1,4 +1,4 @@
-﻿package win.sonic.q.jdbc.view;
+package win.sonic.q.jdbc.view;
 
 import java.sql.SQLException;
 import java.util.Scanner;

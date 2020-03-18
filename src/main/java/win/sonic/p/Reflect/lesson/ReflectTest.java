@@ -1,4 +1,4 @@
-﻿package win.sonic.p.Reflect.lesson;
+package win.sonic.p.Reflect.lesson;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

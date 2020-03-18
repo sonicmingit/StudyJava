@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread.fan;
+package win.sonic.n.thread.fan;
 
 import java.util.ArrayList;
 import java.util.Random;

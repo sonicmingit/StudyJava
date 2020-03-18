@@ -1,4 +1,4 @@
-﻿package win.sonic.f.object;
+package win.sonic.f.object;
 
 public class Use {
 	// 默认变量值与Equals相同

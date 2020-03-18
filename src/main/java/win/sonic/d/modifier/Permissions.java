@@ -1,4 +1,4 @@
-﻿package win.sonic.d.modifier;
+package win.sonic.d.modifier;
 /**
  * 包 权限访问修饰符 修饰符 变量的概念
  * @author 郝一鸣

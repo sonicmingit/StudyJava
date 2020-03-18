@@ -1,40 +1,40 @@
-ï»¿package win.sonic.a.datatype;
+package win.sonic.a.datatype;
 
 public class cars{
-       //é¢œè‰²
+       //ÑÕÉ«
             String color;
-       //ä»·æ ¼
+       //¼Û¸ñ
             int price;
-       //å“ç‰Œ
+       //Æ·ÅÆ
             String brand;
-       //æ— å‚å¥”è·‘çš„æ–¹æ³•
+       //ÎŞ²Î±¼ÅÜµÄ·½·¨
             void run(){
-            System.out.println("è¿™è¾†è½¦çš„é¢œè‰²æ˜¯ï¼š"+color+"; è¿™è¾†è½¦çš„ä»·æ ¼æ˜¯ï¼š"+price+"; è¿™è¾†è½¦çš„å“ç‰Œæ˜¯ï¼š"+brand );
+            System.out.println("ÕâÁ¾³µµÄÑÕÉ«ÊÇ£º"+color+"; ÕâÁ¾³µµÄ¼Û¸ñÊÇ£º"+price+"; ÕâÁ¾³µµÄÆ·ÅÆÊÇ£º"+brand );
        }
-       //æœ‰å‚å¥”è·‘çš„æ–¹æ³•2
+       //ÓĞ²Î±¼ÅÜµÄ·½·¨2
             void run(int speed){
-           System.out.println("è¿™è¾†è½¦çš„é¢œè‰²æ˜¯ï¼š"+color+"; è¿™è¾†è½¦çš„ä»·æ ¼æ˜¯ï¼š"+price+"; è¿™è¾†è½¦çš„å“ç‰Œæ˜¯ï¼š"+brand +"; è¿™è¾†è½¦çš„é€Ÿåº¦ä¸ºï¼š"+speed+"km/h");
+           System.out.println("ÕâÁ¾³µµÄÑÕÉ«ÊÇ£º"+color+"; ÕâÁ¾³µµÄ¼Û¸ñÊÇ£º"+price+"; ÕâÁ¾³µµÄÆ·ÅÆÊÇ£º"+brand +"; ÕâÁ¾³µµÄËÙ¶ÈÎª£º"+speed+"km/h");
        }
-       //è¿è¡Œçš„æ–¹æ³•
+       //ÔËĞĞµÄ·½·¨
             void run(String go){
             switch (go){
-            	case "go" : System.out.println("å¼€å§‹å‰è¿›");
+            	case "go" : System.out.println("¿ªÊ¼Ç°½ø");
             	break;
-            	case "back" : System.out.println("å¼€å§‹åé€€");
+            	case "back" : System.out.println("¿ªÊ¼ºóÍË");
             	break;
-            	default :System.out.println("è¾“å…¥é”™è¯¯");
+            	default :System.out.println("ÊäÈë´íÎó");
             }
             }
        
-       //åˆ¤æ–­æ˜¯å¦ä¸ºå¥½è½¦
+       //ÅĞ¶ÏÊÇ·ñÎªºÃ³µ
             void price(){
-            	System.out.println(price>20000?"è¿™æ˜¯ä¸€è¾†è±ªè½¦":"è¿™è½¦ä¸€èˆ¬");
+            	System.out.println(price>20000?"ÕâÊÇÒ»Á¾ºÀ³µ":"Õâ³µÒ»°ã");
             }
-       //æ±½è½¦çš„æ— å‚æ„é€ æ–¹æ³•
+       //Æû³µµÄÎŞ²Î¹¹Ôì·½·¨
          public cars(){
-            System.out.println("è¿™æ˜¯ä¸€è¾†è½¦");
+            System.out.println("ÕâÊÇÒ»Á¾³µ");
        }
-       //æ±½è½¦çš„æœ‰å‚æ„é€ æ–¹æ³•
+       //Æû³µµÄÓĞ²Î¹¹Ôì·½·¨
             public cars(String color,int price,String brand ){
             this.color=color;
             this.price=price;

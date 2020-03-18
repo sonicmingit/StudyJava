@@ -1,4 +1,4 @@
-﻿package win.sonic.l.collection;
+package win.sonic.l.collection;
 
 /**
  * 用于测试集合的类

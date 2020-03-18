@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter;
+package win.sonic.i.inter;
 
 public interface IB {
 	

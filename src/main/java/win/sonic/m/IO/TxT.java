@@ -1,4 +1,4 @@
-﻿package win.sonic.m.IO;
+package win.sonic.m.IO;
 import java.io.*;
 public class TxT {
 	public static void main(String[] args) {

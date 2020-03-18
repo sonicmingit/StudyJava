@@ -1,4 +1,4 @@
-﻿package win.sonic.h.polymorphism;
+package win.sonic.h.polymorphism;
 
 public class Son extends Father {
 	int age = 25;

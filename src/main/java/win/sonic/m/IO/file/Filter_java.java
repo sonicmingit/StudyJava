@@ -1,4 +1,4 @@
-﻿package win.sonic.m.IO.file;
+package win.sonic.m.IO.file;
 
 import java.io.File;
 import java.io.FileFilter;

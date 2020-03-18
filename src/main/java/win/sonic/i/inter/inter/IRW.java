@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter.inter;
+package win.sonic.i.inter.inter;
 
 /**
  * 一个读写的接口

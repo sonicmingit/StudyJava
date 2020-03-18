@@ -1,4 +1,4 @@
-﻿package win.sonic.k.API.mora;
+package win.sonic.k.API.mora;
 
 import java.util.Random;
 

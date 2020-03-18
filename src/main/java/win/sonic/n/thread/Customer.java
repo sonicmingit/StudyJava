@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread;
+package win.sonic.n.thread;
 
 public class Customer extends Thread {
 	// 消费者名字

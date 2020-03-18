@@ -1,4 +1,4 @@
-﻿package win.sonic.r.generic.test;
+package win.sonic.r.generic.test;
 
 /**
  * 泛型类,可以根据传入泛型参数去对应属性方法

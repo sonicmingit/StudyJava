@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter;
+package win.sonic.i.inter;
 
 /**
  *类只能继承一个父类,但可以实现多个接口

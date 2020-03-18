@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter.inter;
+package win.sonic.i.inter.inter;
 
 public class Mp3 extends Device implements IRW, IPlayMusic {
 

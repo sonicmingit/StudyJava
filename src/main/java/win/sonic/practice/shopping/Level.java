@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shopping;
+package win.sonic.practice.shopping;
 
 /**
  * 等级数量以及名称;

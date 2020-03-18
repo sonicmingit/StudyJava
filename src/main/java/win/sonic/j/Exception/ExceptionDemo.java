@@ -1,4 +1,4 @@
-﻿package win.sonic.j.Exception;
+package win.sonic.j.Exception;
 
 public class ExceptionDemo {
 

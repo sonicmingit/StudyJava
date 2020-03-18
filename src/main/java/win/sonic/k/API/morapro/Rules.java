@@ -1,4 +1,4 @@
-﻿package win.sonic.k.API.morapro;
+package win.sonic.k.API.morapro;
 
 /**
  * 结果判断规则,利用接口和多态

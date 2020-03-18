@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter.school;
+package win.sonic.i.inter.school;
 
 /**
  * 一个住宿的接口,包含住宿的方法和地点

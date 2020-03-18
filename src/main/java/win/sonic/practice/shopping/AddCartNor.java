@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shopping;
+package win.sonic.practice.shopping;
 
 /**
  * 第一种方法,加入购物车,需要实例化每种商品,为每种商品添加方法

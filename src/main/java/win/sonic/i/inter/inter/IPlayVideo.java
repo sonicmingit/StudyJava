@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter.inter;
+package win.sonic.i.inter.inter;
 
 /**
  * 播放视频的方法

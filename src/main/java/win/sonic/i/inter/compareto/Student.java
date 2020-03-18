@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter.compareto;
+package win.sonic.i.inter.compareto;
 
 public class Student implements Comparable<Student> {
 	String name;

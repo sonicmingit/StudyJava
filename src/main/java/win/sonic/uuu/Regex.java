@@ -1,4 +1,4 @@
-﻿package win.sonic.uuu;
+package win.sonic.uuu;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

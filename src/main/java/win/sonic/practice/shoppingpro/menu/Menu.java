@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shoppingpro.menu;
+package win.sonic.practice.shoppingpro.menu;
 
 import java.sql.*;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-﻿package win.sonic.l.collection;
+package win.sonic.l.collection;
 
 import java.util.HashMap;
 import java.util.Iterator;

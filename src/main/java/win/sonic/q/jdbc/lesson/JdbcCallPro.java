@@ -1,4 +1,4 @@
-﻿package win.sonic.q.jdbc.lesson;
+package win.sonic.q.jdbc.lesson;
 import java.sql.*;
 
 /**

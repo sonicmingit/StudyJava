@@ -1,4 +1,4 @@
-﻿
+
 package win.sonic.i.inter.school;
 
 /**

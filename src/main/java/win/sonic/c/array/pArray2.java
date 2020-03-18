@@ -1,4 +1,4 @@
-﻿package win.sonic.c.array;
+package win.sonic.c.array;
 /**
  * 测试创建一个二维数组，把他合并成以为数组，并去掉重复项
  * 

@@ -1,4 +1,4 @@
-﻿package win.sonic.m.IO.rw;
+package win.sonic.m.IO.rw;
 import java.io.*;
 
 /**

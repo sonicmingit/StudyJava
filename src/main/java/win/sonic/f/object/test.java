@@ -1,4 +1,4 @@
-﻿package win.sonic.f.object;
+package win.sonic.f.object;
 
 public class test {
 	public static void main(String[] args) {

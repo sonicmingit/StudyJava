@@ -1,4 +1,4 @@
-﻿package win.sonic.uuu;
+package win.sonic.uuu;
 /**
  * <strong> 自定义一些Int方法</strong><br />
  *

@@ -1,4 +1,4 @@
-﻿package win.sonic.o.socket;
+package win.sonic.o.socket;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

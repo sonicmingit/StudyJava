@@ -1,4 +1,4 @@
-﻿package win.sonic.r.generic.test;
+package win.sonic.r.generic.test;
 
 /**
  * 普通方法把球放入盒子

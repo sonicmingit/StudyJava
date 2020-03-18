@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter;
+package win.sonic.i.inter;
 
 //IAb继承了接口A和接口B,实现接口IAb的类必须实现接口A和B的方法
 public interface IAb extends IA, IB {

@@ -1,4 +1,4 @@
-﻿package win.sonic.c.array;
+package win.sonic.c.array;
 import javax.swing.plaf.synth.SynthSeparatorUI;
 
 /**

@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shoppingpro.vo;
+package win.sonic.practice.shoppingpro.vo;
 
 /**
  * 购物车类

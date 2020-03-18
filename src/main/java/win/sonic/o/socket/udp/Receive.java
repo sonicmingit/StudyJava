@@ -1,4 +1,4 @@
-﻿package win.sonic.o.socket.udp;
+package win.sonic.o.socket.udp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

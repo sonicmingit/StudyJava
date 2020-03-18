@@ -1,4 +1,4 @@
-﻿package win.sonic.e.relation;
+package win.sonic.e.relation;
 
 import java.nio.channels.NetworkChannel;
 

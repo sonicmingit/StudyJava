@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter;
+package win.sonic.i.inter;
 
 /**
  * 接口Ab,必须实现接口父类A,B以及Ab本身的方法

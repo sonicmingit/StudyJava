@@ -1,4 +1,4 @@
-﻿package win.sonic.r.generic;
+package win.sonic.r.generic;
 
 //创建一个泛型类
 public class Fan<E> {

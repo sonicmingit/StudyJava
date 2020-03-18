@@ -1,4 +1,4 @@
-﻿package win.sonic.k.API;
+package win.sonic.k.API;
 
 import java.util.Random;
 

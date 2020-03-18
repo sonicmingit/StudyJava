@@ -1,4 +1,4 @@
-﻿package win.sonic.e.relation;
+package win.sonic.e.relation;
 
 public class Cart {
 	// 创建一个商品类数组,用于保存添加到购物车的商品,最大容量为10

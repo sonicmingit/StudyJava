@@ -1,4 +1,4 @@
-﻿package win.sonic.e.relation;
+package win.sonic.e.relation;
 
 /**
  * B是A的属性 AB属于关联关系 C是A的一个方法的属性 AC属于依赖关系

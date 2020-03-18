@@ -1,4 +1,4 @@
-﻿package win.sonic.o.socket.tt;
+package win.sonic.o.socket.tt;
 
 import java.net.Socket;
 import java.io.*;

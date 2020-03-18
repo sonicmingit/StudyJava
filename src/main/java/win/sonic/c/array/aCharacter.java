@@ -1,4 +1,4 @@
-﻿package win.sonic.c.array;
+package win.sonic.c.array;
 /**
  * Character类型的方法使用
  * @author Administrator

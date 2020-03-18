@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter.inter;
+package win.sonic.i.inter.inter;
 public class Mp4 extends Device implements IPlayMusic, IPlayVideo, IRW {
 
 	@Override

@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread.fan;
+package win.sonic.n.thread.fan;
 /**
  * 创建一个测试类，测试生产者与消费者模型
  * @author Sean Fan

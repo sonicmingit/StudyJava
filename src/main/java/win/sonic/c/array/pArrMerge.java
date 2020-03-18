@@ -1,4 +1,4 @@
-﻿package win.sonic.c.array;
+package win.sonic.c.array;
 /**
  * 数组合并//去0
  * @author 郝一鸣

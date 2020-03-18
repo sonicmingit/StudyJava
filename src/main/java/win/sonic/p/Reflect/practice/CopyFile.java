@@ -1,4 +1,4 @@
-﻿package win.sonic.p.Reflect.practice;
+package win.sonic.p.Reflect.practice;
 
 import java.io.*;
 

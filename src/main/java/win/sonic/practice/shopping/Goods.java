@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shopping;
+package win.sonic.practice.shopping;
 
 /**
  * <h3>所有商品的总类<h3></br>所有物品的父类,只含获取商品信息的抽象类.</br>主要用于泛型获取子类属性

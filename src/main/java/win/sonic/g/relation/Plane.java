@@ -1,4 +1,4 @@
-﻿package win.sonic.g.relation;
+package win.sonic.g.relation;
 
 public class Plane extends Flyer {
 

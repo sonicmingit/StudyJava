@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter;
+package win.sonic.i.inter;
 /**
  * 这是一个接口,关键字为<interface>
  *</br>接口名以大写I开头,接口名第一个字母大写

@@ -1,4 +1,4 @@
-﻿package win.sonic.b.processcontrol;
+package win.sonic.b.processcontrol;
 import java.util.Scanner;
 
 /*dowhile练习题:11.11,3家耐克店打折,每家店每人最多买3件衣服,小王刚发了工资,去买衣服,但是只能买5件。请问小王逛了几家店了几件衣服。

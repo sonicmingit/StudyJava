@@ -1,4 +1,4 @@
-﻿package win.sonic.k.API.morapro;
+package win.sonic.k.API.morapro;
 
 /**
  * 出拳的接口,有出拳的方法,获取名称和结果的方法

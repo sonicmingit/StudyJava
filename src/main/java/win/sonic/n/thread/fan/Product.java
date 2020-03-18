@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread.fan;
+package win.sonic.n.thread.fan;
 /**
  * 创建产品类，包含产品的一些属性，以及获取这些属性的方法
  * @author Sean Fan

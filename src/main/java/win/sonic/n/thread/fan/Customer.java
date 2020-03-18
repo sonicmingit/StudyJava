@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread.fan;
+package win.sonic.n.thread.fan;
 /**
  * 创建顾客类，实现当仓库中有产品时从仓库买走产品，如果仓库中暂无产品，则等待
  * @author Sean Fan

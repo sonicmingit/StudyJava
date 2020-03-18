@@ -11,6 +11,6 @@ public class Test {
 
     public static void main(String[] args) {
         //测试接口的静态方法
-        InterfaceStaticMethod.staticMethod();
+        top.sonic.java8.InterfaceStaticMethod.staticMethod();
     }
 }

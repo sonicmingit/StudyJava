@@ -1,4 +1,4 @@
-﻿package win.sonic.b.processcontrol;
+package win.sonic.b.processcontrol;
 
 /**
  * 九九乘法表

@@ -1,4 +1,4 @@
-﻿
+
 package win.sonic.d.modifier;
 
 import java.util.Scanner;

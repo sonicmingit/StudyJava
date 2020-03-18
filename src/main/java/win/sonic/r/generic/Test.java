@@ -1,4 +1,4 @@
-﻿package win.sonic.r.generic;
+package win.sonic.r.generic;
 
 public class Test {
 

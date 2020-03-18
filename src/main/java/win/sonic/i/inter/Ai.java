@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter;
+package win.sonic.i.inter;
 //ai实现接口,必须实现ai的所有方法
 public class Ai implements IA {
 //ia接口方法的重载

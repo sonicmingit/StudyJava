@@ -1,4 +1,4 @@
-﻿package win.sonic.q.jdbc.service;
+package win.sonic.q.jdbc.service;
 
 import java.io.FileInputStream;
 import java.io.IOException;

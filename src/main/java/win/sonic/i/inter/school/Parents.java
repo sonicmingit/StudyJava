@@ -1,4 +1,4 @@
-﻿package win.sonic.i.inter.school;
+package win.sonic.i.inter.school;
 
 /**
  * 这是一个家长

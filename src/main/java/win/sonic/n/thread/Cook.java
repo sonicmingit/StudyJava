@@ -1,4 +1,4 @@
-﻿package win.sonic.n.thread;
+package win.sonic.n.thread;
 
 public class Cook extends Thread {
 	// 厨师名

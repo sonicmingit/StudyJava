@@ -1,4 +1,4 @@
-﻿package win.sonic.g.relation;
+package win.sonic.g.relation;
 
 public class TestFlyer {
 	//4.25相当于多态的向上造型

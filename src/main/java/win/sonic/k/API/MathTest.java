@@ -1,4 +1,4 @@
-﻿package win.sonic.k.API;
+package win.sonic.k.API;
 
 //引入math的包
 import java.lang.*;

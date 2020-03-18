@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shoppingpro.vo;
+package win.sonic.practice.shoppingpro.vo;
 
 /**
  * 用户数据

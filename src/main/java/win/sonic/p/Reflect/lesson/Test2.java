@@ -1,4 +1,4 @@
-﻿package win.sonic.p.Reflect.lesson;
+package win.sonic.p.Reflect.lesson;
 
 public class Test2 {
 	private String test2s;

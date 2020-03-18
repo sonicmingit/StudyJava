@@ -1,4 +1,4 @@
-﻿package win.sonic.r.generic;
+package win.sonic.r.generic;
 
 /**
  * 泛型接口测试

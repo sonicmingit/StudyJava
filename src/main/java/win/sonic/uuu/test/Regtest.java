@@ -1,4 +1,4 @@
-﻿package win.sonic.uuu.test;
+package win.sonic.uuu.test;
 
 import java.util.Scanner;
 

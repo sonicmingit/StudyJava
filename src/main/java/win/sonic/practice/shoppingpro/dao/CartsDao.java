@@ -1,4 +1,4 @@
-﻿package win.sonic.practice.shoppingpro.dao;
+package win.sonic.practice.shoppingpro.dao;
 
 import java.sql.*;
 import win.sonic.practice.shoppingpro.dao.JDBC;

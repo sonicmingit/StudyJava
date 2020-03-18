@@ -1,4 +1,4 @@
-﻿package win.sonic.r.generic.test;
+package win.sonic.r.generic.test;
 
 public class TableTennis {
 	// 名称

@@ -1,4 +1,4 @@
-﻿package win.sonic.k.API.morapro;
+package win.sonic.k.API.morapro;
 
 import java.util.*;
 

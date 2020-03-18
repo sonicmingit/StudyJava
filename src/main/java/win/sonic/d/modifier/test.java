@@ -1,4 +1,4 @@
-﻿package win.sonic.d.modifier;
+package win.sonic.d.modifier;
 //ttt5yjd-jdd4yh tttyyyyyjd@jddyyyyh
 public class test {
 public static void main(String[] args) {
