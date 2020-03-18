@@ -72,6 +72,6 @@ public class LamdaSort {
         //1.按年龄排序并输出
         List<Employee> employees = lamda.createEmp();
         Collections.sort(employees,(x , y)->x.getAge()-y.getAge());
-        System.out.println(employees);
+        employees.forEach(i-> System.out.println(i.getAge()));
     }
 }
