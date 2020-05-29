@@ -1,10 +1,10 @@
 package sonic.practice.shoppingpro.dao;
 
+import sonic.practice.shoppingpro.menu.Menu;
+import sonic.practice.shoppingpro.vo.Goods;
+
 import java.sql.*;
 
-import win.sonic.practice.shoppingpro.vo.Goods;
-import win.sonic.practice.shoppingpro.dao.JDBC;
-import win.sonic.practice.shoppingpro.menu.Menu;
 
 /**
  * 商品表连接数据库的操作方法

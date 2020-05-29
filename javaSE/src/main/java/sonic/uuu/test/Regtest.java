@@ -2,7 +2,7 @@ package sonic.uuu.test;
 
 import java.util.Scanner;
 
-import win.sonic.uuu.Regex;
+import sonic.uuu.Regex;
 
 public class Regtest {
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Regtest {
 		System.out.println("请输入您的手机号:");
 		while (true) {
 			String u=in.next();
-			b=Regex.regex(reg, u);		
+			b= Regex.regex(reg, u);
 			if (b) {
 				System.out.println("手机号输入正确!");
 				break;

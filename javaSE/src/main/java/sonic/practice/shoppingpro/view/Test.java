@@ -1,7 +1,9 @@
 package sonic.practice.shoppingpro.view;
 
-import win.sonic.practice.shoppingpro.dao.JDBC;
-import win.sonic.practice.shoppingpro.menu.*;
+import sonic.practice.shoppingpro.dao.JDBC;
+import sonic.practice.shoppingpro.menu.GoodsMenu;
+import sonic.practice.shoppingpro.menu.ShoppingMenu;
+import sonic.practice.shoppingpro.menu.UserMenu;
 
 public class Test {
 	public static void main(String[] args) {

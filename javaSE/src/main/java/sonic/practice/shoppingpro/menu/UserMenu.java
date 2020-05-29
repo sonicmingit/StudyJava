@@ -1,10 +1,11 @@
 package sonic.practice.shoppingpro.menu;
 
+import sonic.practice.shoppingpro.dao.JDBC;
+import sonic.practice.shoppingpro.vo.User;
+
 import java.sql.*;
 import java.util.Random;
 
-import win.sonic.practice.shoppingpro.dao.JDBC;
-import win.sonic.practice.shoppingpro.vo.User;
 
 /**
  * 用户库操作菜单

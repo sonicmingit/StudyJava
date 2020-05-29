@@ -1,8 +1,6 @@
 package sonic.q.jdbc.vo;
 
-import java.util.Date;
-
-import win.sonic.q.jdbc.service.UserDao;
+import sonic.q.jdbc.service.UserDao;
 
 /**
  * 用户数据

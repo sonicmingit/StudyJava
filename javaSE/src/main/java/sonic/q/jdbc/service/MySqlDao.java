@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.Properties;
 
-import win.sonic.q.jdbc.vo.Goods;
-
 public abstract class MySqlDao {
 	private static Properties p = new Properties();
 	static Connection con = null;

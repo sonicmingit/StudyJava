@@ -1,4 +1,6 @@
 package sonic.java8.optional;
+import org.junit.Test;
+
 import java.util.Optional;
 /**
  * 测试Optional
@@ -36,6 +38,20 @@ public class OptionalTest {
         //Optional.get - 获取值，值需要存在
         Integer value2 = b.get();
         return value1 + value2;
+    }
+
+    @Test
+    public void test1(){
+        String a = "";
+        String b = "123";
+        Integer ainteger = Optional.ofNullable(a).map(aa -> aa.length()).orElse(0);
+        Integer binteger = Optional.ofNullable(b).map(String::length).orElse(0);
+        System.out.println(ainteger);
+        System.out.println(binteger);
+    }
+
+    @Test
+    public void test2(){
     }
 
 }

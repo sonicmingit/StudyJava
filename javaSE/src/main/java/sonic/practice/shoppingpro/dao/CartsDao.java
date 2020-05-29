@@ -1,7 +1,6 @@
 package sonic.practice.shoppingpro.dao;
 
 import java.sql.*;
-import win.sonic.practice.shoppingpro.dao.JDBC;
 
 /**
  * 购物车表连接数据库的操作方法

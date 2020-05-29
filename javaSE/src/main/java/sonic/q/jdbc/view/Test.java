@@ -1,13 +1,13 @@
 package sonic.q.jdbc.view;
 
+import sonic.practice.shoppingpro.dao.CartsDao;
+import sonic.practice.shoppingpro.dao.GoodsDao;
+import sonic.practice.shoppingpro.vo.Goods;
+import sonic.q.jdbc.service.UserDao;
+
 import java.sql.SQLException;
 import java.util.Scanner;
 
-import win.sonic.q.jdbc.service.CartsDao;
-import win.sonic.q.jdbc.service.GoodsDao;
-import win.sonic.q.jdbc.service.UserDao;
-import win.sonic.q.jdbc.vo.Goods;
-import win.sonic.q.jdbc.vo.User;
 
 public class Test {
 	static GoodsDao a = new GoodsDao();

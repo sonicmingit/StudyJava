@@ -1,9 +1,10 @@
 package sonic.practice.shoppingpro.dao;
 
-import java.sql.*;
-import win.sonic.practice.shoppingpro.vo.User;
-import win.sonic.practice.shoppingpro.dao.JDBC;
-import win.sonic.practice.shoppingpro.menu.Menu;
+import sonic.practice.shoppingpro.menu.Menu;
+import sonic.practice.shoppingpro.vo.User;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * 用户表连接数据库的操作方法
@@ -15,8 +16,8 @@ public class UserDao extends JDBC {
 	/**
 	 * 添加顾客
 	 * 
-	 * @param name
-	 *            顾客姓名
+	 * @param
+	 *
 	 * @return int 操作结果
 	 */
 	public int addUser(User use) {

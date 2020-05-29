@@ -1,11 +1,14 @@
 package sonic.practice.shoppingpro.menu;
 
-import java.sql.*;
-import java.util.Scanner;
+import sonic.practice.shoppingpro.dao.CartsDao;
+import sonic.practice.shoppingpro.dao.GoodsDao;
+import sonic.practice.shoppingpro.dao.UserDao;
+import sonic.practice.shoppingpro.vo.Goods;
+import sonic.practice.shoppingpro.vo.User;
 
-import win.sonic.practice.shoppingpro.dao.*;
-import win.sonic.practice.shoppingpro.vo.*;
-import win.sonic.practice.shoppingpro.vo.User;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Scanner;
 /**
  * 综合菜单和菜单公用方法
  * 

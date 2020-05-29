@@ -1,12 +1,12 @@
 package sonic.q.jdbc.service;
 
-import java.sql.Date;
+
+import sonic.practice.shoppingpro.vo.User;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
-import win.sonic.q.jdbc.vo.User;
 
 public class UserDao extends MySqlDao {
 	Statement st = null;
@@ -16,8 +16,7 @@ public class UserDao extends MySqlDao {
 	/**
 	 * 添加顾客
 	 * 
-	 * @param name
-	 *            顾客姓名
+
 	 * @return
 	 */
 	public int addUser(User use) {
@@ -41,8 +40,8 @@ public class UserDao extends MySqlDao {
 	/**
 	 * 向购物车商品添加用户id
 	 * 
-	 * @param use
-	 *            用户
+	 * @param
+	 *
 	 * @return 修改结果
 	 */
 	public int goodsToUser(int userid) {

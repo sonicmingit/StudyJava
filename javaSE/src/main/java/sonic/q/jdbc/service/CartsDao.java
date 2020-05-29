@@ -3,9 +3,6 @@ package sonic.q.jdbc.service;
 import java.sql.*;
 import java.util.Scanner;
 
-import win.sonic.q.jdbc.vo.CartsGoods;
-import win.sonic.q.jdbc.vo.Goods;
-
 public class CartsDao extends MySqlDao {
 	Statement st = null;
 	PreparedStatement ps = null;

@@ -1,9 +1,9 @@
 package sonic.practice.shoppingpro.menu;
 
-import java.sql.ResultSet;
+import sonic.practice.shoppingpro.dao.JDBC;
+import sonic.practice.shoppingpro.vo.User;
 
-import win.sonic.practice.shoppingpro.dao.*;
-import win.sonic.practice.shoppingpro.vo.*;
+import java.sql.ResultSet;
 
 /**
  * 购物操作菜单

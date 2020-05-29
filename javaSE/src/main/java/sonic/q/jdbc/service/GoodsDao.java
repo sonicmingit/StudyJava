@@ -1,8 +1,11 @@
 package sonic.q.jdbc.service;
 
-import java.sql.*;
+import sonic.practice.shoppingpro.vo.Goods;
 
-import win.sonic.q.jdbc.vo.Goods;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class GoodsDao extends MySqlDao {
 	Statement st = null;

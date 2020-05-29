@@ -1,9 +1,9 @@
 package sonic.practice.shoppingpro.menu;
 
-import java.sql.SQLException;
+import sonic.practice.shoppingpro.dao.GoodsDao;
+import sonic.practice.shoppingpro.vo.Goods;
 
-import win.sonic.practice.shoppingpro.vo.Goods;
-import win.sonic.practice.shoppingpro.dao.GoodsDao;
+import java.sql.SQLException;
 
 /**
  * 商品库操作菜单
