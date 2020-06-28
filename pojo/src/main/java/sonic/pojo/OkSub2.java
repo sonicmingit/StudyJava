@@ -1,3 +1,5 @@
+package sonic.pojo;
+
 import lombok.Data;
 
 /**
@@ -7,9 +9,8 @@ import lombok.Data;
  * @date: 2020-5-29 11:10
  **/
 @Data
-public class OkSub1 {
+public class OkSub2 {
     String okStr;
     Integer okInt;
     Double okDouble;
-    OkSub11 ok11;
 }

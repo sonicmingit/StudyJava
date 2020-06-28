@@ -1,5 +1,10 @@
 package sonic.java8.optional;
 import org.junit.Test;
+import sonic.a.datatype.cars;
+import sonic.pojo.Ok;
+import sonic.pojo.OkSub1;
+import sonic.pojo.OkSub11;
+import sonic.pojo.OkSub2;
 
 import java.util.Optional;
 /**
@@ -52,6 +57,11 @@ public class OptionalTest {
 
     @Test
     public void test2(){
+
+        Ok ok = new Ok();
+
+        Optional<OkSub11> okSub11 = Optional.ofNullable(ok).map(Ok::getOk1).map(OkSub1::getOk11);
+        Integer integer = Optional.ofNullable(ok).map(Ok::getOk1).map(OkSub1::getOk11).map(OkSub11::getOkInt).orElse(1);
     }
 
 }

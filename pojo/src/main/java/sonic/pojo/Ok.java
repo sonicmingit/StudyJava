@@ -1,4 +1,8 @@
+package sonic.pojo;
+
 import lombok.Data;
+
+import java.util.List;
 
 /**
  * ok
@@ -12,5 +16,5 @@ public class Ok {
     Integer okInt;
     Double okDouble;
     OkSub1 ok1;
-    OkSub2 ok2;
+    List<OkSub2> ok2;
 }

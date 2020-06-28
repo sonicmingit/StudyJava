@@ -47,6 +47,24 @@
             <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
+<!--阿里巴巴fastjson-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.60.sec10</version>
+        </dependency>
+        <!--阿里巴巴工具包 stringutil-->
+        <dependency>
+            <groupId>com.alibaba.common.lang</groupId>
+            <artifactId>toolkit-common-lang</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>14.0.1</version>
+        </dependency>
 
 
     <dependency>

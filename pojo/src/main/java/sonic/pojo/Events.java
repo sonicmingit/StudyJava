@@ -1,3 +1,4 @@
+package sonic.pojo;
 
 public class Events {
 

@@ -1,4 +1,4 @@
-
+package sonic.pojo;
 
 public class User {
 

@@ -11,13 +11,18 @@ import java.util.Optional;
  **/
 public class QuickCheckDemo {
 
-    private void testCheck(){
+    private static void testCheck(){
         TestDAO t1 = new TestDAO();
         t1.getDao1().getStrList().get(0);
     }
 
-    private void testCheckOp(){
+    private static String testCheckOp(){
         TestDAO t1 = new TestDAO();
-        Optional<String> s = Optional.ofNullable(t1).map(u -> u.getDao1()).map(u -> u.getStr()).map(String::toString);
+        String s = Optional.ofNullable(t1).map(u -> u.getDao1()).map(u -> u.getStr()).map(String::toString).orElse("n333ull");
+        return s;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(testCheckOp());
     }
 }
