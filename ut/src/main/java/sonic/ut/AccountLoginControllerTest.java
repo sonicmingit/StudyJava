@@ -1,4 +1,5 @@
 package sonic.ut;
+import com.alibaba.fastjson.TypeReference;
 import sonic.pojo.OkSub11;
 import com.google.common.collect.Lists;
 import sonic.pojo.OkSub1;
@@ -20,6 +21,13 @@ import javax.servlet.http.HttpServletRequest;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
+
+/**
+ * IDEA报错解决
+ * 1. Error running 'ServiceStarter': Command line is too long. .....
+ * A: .idea\workspace.xml -> <component name="PropertiesComponent"> -> <property name="dynamic.classpath" value="true" />
+ */
+
 
 //注释的方式装载Mockito
 @RunWith(MockitoJUnitRunner.class)
@@ -91,11 +99,12 @@ public class AccountLoginControllerTest {
         Ok ok = createDo();
         String jsonStr = JSONObject.toJSONString(ok);
         System.out.println(jsonStr);
-
         //用json创建一个实体
         String json = "{\"ok1\":{\"ok11\":{},\"okDouble\":1.1,\"okInt\":2,\"okStr\":\"222\"},\"ok2\":[{\"okDouble\":3.3,\"okInt\":3,\"okStr\":\"333\"}],\"okDouble\":1.1,\"okInt\":1,\"okStr\":\"111\"}\n";
         Ok doByJson = createDoByJson(json);
         System.out.println(doByJson);
+        Ok doByJson1 = createDoByJson(json,ok);
+        System.out.println(doByJson1);
     }
 
 
@@ -107,6 +116,19 @@ public class AccountLoginControllerTest {
         JSONObject json = JSONObject.parseObject(jsonStr);
         Ok ok = JSON.toJavaObject(json,Ok.class);
         return ok;
+    }
+
+    /**
+     * 用json串创建一个实体
+     * @param jsonStr
+     * @param t
+     * @param <T>
+     * @return
+     */
+    private <T> T createDoByJson(String jsonStr,T t){
+        JSONObject json = JSONObject.parseObject(jsonStr);
+        T t2 = (T) JSON.toJavaObject(json, t.getClass());
+        return t2;
     }
 
     /**
