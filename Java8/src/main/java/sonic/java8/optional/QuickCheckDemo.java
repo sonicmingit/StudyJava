@@ -1,6 +1,10 @@
 package sonic.java8.optional;
 
 
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -11,18 +15,24 @@ import java.util.Optional;
  **/
 public class QuickCheckDemo {
 
-    private static void testCheck(){
+    private void testCheck(){
         TestDAO t1 = new TestDAO();
         t1.getDao1().getStrList().get(0);
     }
 
-    private static String testCheckOp(){
+
+    private void testCheckOp(){
         TestDAO t1 = new TestDAO();
-        String s = Optional.ofNullable(t1).map(u -> u.getDao1()).map(u -> u.getStr()).map(String::toString).orElse("n333ull");
-        return s;
+        Optional<String> s = Optional.ofNullable(t1).map(u -> u.getDao1()).map(u -> u.getStr()).map(String::toString);
     }
 
-    public static void main(String[] args) {
-        System.out.println(testCheckOp());
+    @Test
+    public void testOp(){
+        TestDAO t = new TestDAO();
+        TestDAO1 t1 = new TestDAO1();
+        t.setDao1(t1);
+        t1.setStrList(new ArrayList<>());
+        Integer integer = Optional.ofNullable(t).map(TestDAO::getDao1).map(TestDAO1::getStrList).map(List::size).orElse(100);
+        System.out.println(integer);
     }
 }
