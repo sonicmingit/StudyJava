@@ -1,5 +1,6 @@
 package sonic.ut;
 import com.alibaba.fastjson.TypeReference;
+import org.powermock.modules.junit4.PowerMockRunner;
 import sonic.pojo.OkSub11;
 import com.google.common.collect.Lists;
 import sonic.pojo.OkSub1;
@@ -24,15 +25,16 @@ import static org.mockito.Mockito.*;
 
 /**
  * IDEA报错解决
- * 1. Error running 'ServiceStarter': Command line is too long. .....
+ * 1. Error running 'ServiceStarter': Command line is too long.
+ * .....
  * A: .idea\workspace.xml -> <component name="PropertiesComponent"> -> <property name="dynamic.classpath" value="true" />
  */
 
 
 //注释的方式装载Mockito
-@RunWith(MockitoJUnitRunner.class)
-/*另一个mock方法,可以mock静态方法.这边用了注解,mock可以用前置方法
-@RunWith(PowerMockRunner.class)*/
+//@RunWith(MockitoJUnitRunner.class)
+/*另一个mock方法,可以mock静态方法.这边用了注解,mock可以用前置方法*/
+@RunWith(PowerMockRunner.class)
 public class AccountLoginControllerTest {
 
 
@@ -44,6 +46,7 @@ public class AccountLoginControllerTest {
      * 类似service,controller等可以用这个注解mock
      * 创建一个实例，简单的说是这个Mock可以调用真实代码的方法，其余用@Mock（或@Spy）注解创建的mock将被注入到用该实例中。
       */
+    // 要测试的类添加此注解可进方法
     @InjectMocks
     private AccountLoginController accessController;
 
@@ -51,6 +54,7 @@ public class AccountLoginControllerTest {
      * 创建一个mock
      * 同代码里 HttpServletRequest request1 = Mock(HttpServletRequest.class)
      */
+    // 只是mock,所有方法返回都得mock
     @Mock
     private HttpServletRequest request1;
 
@@ -67,9 +71,9 @@ public class AccountLoginControllerTest {
 
         /*mock静态方法实例 todo 后续补充*/
         //mock权限校验静态方法,跳过用户权限校验
-        /*PowerMockito.mockStatic(ParamCheckUtils.class);
+        /*PowerMockito.mockStatic(ParamCheckUtils.class); //创建mock
         PowerMockito.doNothing().when(ParamCheckUtils.class);
-        ParamCheckUtils.userParamCheck(Mockito.any());*/
+        ParamCheckUtils.userParamCheck(Mockito.any());*/ //mock方法返回
     }
 
     @Test
