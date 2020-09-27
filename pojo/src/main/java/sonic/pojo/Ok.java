@@ -3,6 +3,7 @@ package sonic.pojo;
 import lombok.Data;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * ok
@@ -17,4 +18,5 @@ public class Ok {
     Double okDouble;
     OkSub1 ok1;
     List<OkSub2> ok2;
+    Map<String, String> map;
 }
