@@ -34,5 +34,4 @@ build/
 .vscode/
 
 ### 不需要同步的测试文件
-/ut/src/main/java/sonic/testal
-
+/ut/src/main/java/sonic/testal/
