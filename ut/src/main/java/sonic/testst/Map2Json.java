@@ -1,7 +1,11 @@
 package sonic.testst;
 
 import com.alibaba.fastjson.JSONObject;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import org.junit.Test;
+import sonic.pojo.Ok;
+import sonic.pojo.OkSub2;
 
 import java.util.Map;
 
@@ -30,6 +34,19 @@ public class Map2Json {
     static Map<String,String> JsonStr2Map(String str){
         return JSONObject.parseObject(str,Map.class);
     }
+
+    @Test
+    public void testPoToJson(){
+        Ok ok = new Ok();
+        ok.setMap(Maps.newHashMap());
+        OkSub2 ok2 = new OkSub2();
+        ok2.setOkInt(11);
+        ok2.setOkStr("2222");
+        ok.setOk2(Lists.newArrayList(ok2));
+        String msg = JSONObject.toJSONString(ok);
+        System.out.println(msg);
+    }
+
 
     public static void main(String[] args) {
 

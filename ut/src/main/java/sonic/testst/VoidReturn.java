@@ -20,5 +20,9 @@ public class VoidReturn {
     public static void main(String[] args) {
         testReturn(0);
         testReturn(1);
+
+
     }
+
+
 }
