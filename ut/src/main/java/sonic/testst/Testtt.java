@@ -1,13 +1,16 @@
 package sonic.testst;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.Maps;
 import org.junit.Test;
-import sonic.pojo.Ok;
+import org.springframework.util.CollectionUtils;;
 import sonic.pojo.OkInt;
 import sonic.pojo.OkSub1;
 
 import java.util.Map;
+
+;
 
 /**
  * 随便测试
@@ -61,4 +64,39 @@ public class Testtt {
         sb.append(1).append("2");
         System.out.println(sb);
     }
+
+
+    @Test
+    public void test(){
+        String abc = "---";
+        abc = addStr(abc);
+        System.out.println(abc);
+
+    }
+    private String addStr(String a){
+        return a+"666";
+    }
+
+
+    @Test
+    public void test1(){
+        JSONObject a = new JSONObject();
+        a.put("111",111);
+        a.put("222",111);
+        JSONObject b = new JSONObject();
+        b.putAll(a);
+        a.remove("111");
+        System.out.println(b);
+
+        JSONObject c = new JSONObject();
+        c.putAll(a);
+        b.put("c",c);
+
+        if (CollectionUtils.isEmpty(b.getJSONObject("c"))) {
+            System.out.println("empty");
+        }else{
+            System.out.println("notEmpty");
+        }
+    }
+
 }

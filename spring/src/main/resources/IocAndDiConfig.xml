@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--默认无参构造-->
+    <!-- ############################################################################# -->
+    <!--最简单的依赖注入,ioc创建一个bean,同时给属性复制-->
+    <!-- name相当于别名,也可以用来注入,但是id和name必须是唯一的-->
+    <bean id="user" name="userName,userName2" class="main.bean.User">
+        <!--property-name对应set方法名-->
+        <property name="name" value="sonic" />
+        <property name="age" value="33"/>
+    </bean>
+
+    <!--其他参数依赖注入-->
+    <bean id="user1" class="main.bean.User">
+        <property name="name" value="sonic" />
+        <property name="age" value="33"/>
+        <!--实体注入,ref 对应上面的user-->
+        <property name="other" ref="user"/>
+        <!--list,string注入-->
+        <property name="cars">
+            <list>
+                <value>
+                    atenza
+                </value>
+            </list>
+        </property>
+        <!--list,实体注入-->
+        <property name="children">
+            <list>
+                <ref bean="userName2"/>
+            </list>
+        </property>
+        <!--map注入-->
+        <property name="house">
+            <map>
+                <entry key="1">
+                    <value>1</value>
+                </entry>
+            </map>
+        </property>
+        <property name="childrenMap">
+            <map>
+                <entry key-ref="userName">
+                    <ref bean="user"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <!--构造器注入-->
+    <!-- ############################################################################# -->
+    <bean id="userCon" class="main.bean.User">
+        <constructor-arg name="name" value="构造器注入"/>
+    </bean>
+
+    <!--初始化和销毁方法-->
+    <!-- ############################################################################# -->
+    <!--启动和销毁时执行的方法, 附带scope作用域,单例模式-->
+    <bean id="userInit" class="main.bean.User" init-method="init" destroy-method="destroy" scope="singleton"/>
+
+
+    <!--p命名和c命名-->
+    <!-- ############################################################################# -->
+<!--    xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:c="http://www.springframework.org/schema/c"-->
+    <bean id="userC" class="main.bean.User"  c:name="c命名构造"/>
+    <bean id="userP" class="main.bean.User" p:name="p命名方式" p:children-ref="userC"/>
+
+
+</beans>

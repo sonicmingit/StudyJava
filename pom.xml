@@ -25,12 +25,13 @@
         <module>javaSE</module>
         <module>Java8</module>
         <module>pojo</module>
-        <module>api</module>
+        <module>utils</module>
         <module>design</module>
+        <module>test</module>
     </modules>
 
     <dependencies>
-<!--单元测试-->
+        <!--单元测试-->
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
@@ -54,25 +55,25 @@
             <version>4.11</version>
             <scope>compile</scope>
         </dependency>
-<!--lombok-->
+        <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
-<!--阿里巴巴fastjson-->
+        <!--阿里巴巴fastjson-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.60.sec10</version>
         </dependency>
         <!--阿里巴巴工具包 stringutil-->
-        <dependency>
+<!--        <dependency>
             <groupId>com.alibaba.common.lang</groupId>
             <artifactId>toolkit-common-lang</artifactId>
             <version>1.0</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -81,13 +82,12 @@
         </dependency>
 
 
-    <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>javax.servlet-api</artifactId>
-        <version>3.1.0</version>
-        <scope>provided</scope>
-    </dependency>
-
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
 
 
     </dependencies>

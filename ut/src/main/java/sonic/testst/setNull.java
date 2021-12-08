@@ -1,3 +1,4 @@
+/*
 package sonic.testst;
 
 import com.alibaba.common.lang.StringUtil;
@@ -8,16 +9,19 @@ import com.sun.deploy.util.StringUtils;
 import java.util.Map;
 import java.util.Set;
 
+*/
 /**
  * set判空
  *
  * @author: yiming.hym(郝一鸣)
  * @date: 2020-9-17 15:30
- **/
+ **//*
+
 public class setNull {
 
     public static void main(String[] args) {
-        /*Set<String> set = Sets.newHashSet();
+        */
+/*Set<String> set = Sets.newHashSet();
         Map<String,String> map = Maps.newHashMap();
         map.put("1","111");
         set.add(map.get("111"));
@@ -25,7 +29,8 @@ public class setNull {
         set.add(map.get("333"));
         set.add(map.get("1"));
         System.out.println(set.size());
-        System.out.println(set);*/
+        System.out.println(set);*//*
+
 
 
         long start = System.currentTimeMillis();
@@ -53,4 +58,4 @@ public class setNull {
         long end1 = System.currentTimeMillis();
         System.out.println(end1-start1);
     }
-}
+}*/

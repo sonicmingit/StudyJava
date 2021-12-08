@@ -59,9 +59,30 @@ public class OptionalTest {
     public void test2(){
 
         Ok ok = new Ok();
-
         Optional<OkSub11> okSub11 = Optional.ofNullable(ok).map(Ok::getOk1).map(OkSub1::getOk11);
         Integer integer = Optional.ofNullable(ok).map(Ok::getOk1).map(OkSub1::getOk11).map(OkSub11::getOkInt).orElse(1);
+    }
+
+
+
+    @Test
+    public void test(){
+        String mobile = "lkjsdf 法师多了空间发生的  .,的说法说带飞了空间看了三..四大皆空. .,的说法,水电费,4544131....    ";
+        String[] recipients = mobile.split(",");
+        //目标号码组，必填参数
+        String mobiles = "";
+        int a = 1;
+        for (String string : recipients) {
+            if (a == 1) {
+                mobiles = string;
+            }else {
+                mobiles = mobiles +","+ string;
+            }
+            a++;
+        }
+
+        System.out.println(mobiles);
+        System.out.println(mobile.equals(mobiles));
     }
 
 }
